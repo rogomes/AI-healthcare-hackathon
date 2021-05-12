@@ -12,6 +12,7 @@ This repository contais the work of the **AI Wonder Girls** team!
 <img src="figures/logo.png" width="200">
 
 <img src="figures/team.png" width="400">
+
 ## Inspiration 
 The **AI wonder Girls** team members are experienced data scientists and are passionate about contributing their skills to Healthcare Domain.
 
@@ -50,7 +51,9 @@ Domain knowledge input is an essential part of building an efficient AI product.
 
 ## The pillars of our project
 
-**Impact** The AI report generation will ease the bottlenecks in radiology workflowsand ensure faster diagnosis, which is highly desirable in critical health problems.
+**Innovation:** The application and inference pipeline are built with standard *REST APIs* and *opensource libraries* frameworks which can integrate well with the existing radiology systems like PACS and AI models currently in use. Thus significantly improving the integration of AI into healthcare systems and enhancing the benefits to a larger population. The possible identification of high-risk health problems with this application will allow doctors to prioritize patients and ultimately save more lives.
+
+**Impact:** The AI report generation will ease the bottlenecks in radiology workflowsand ensure faster diagnosis, which is highly desirable in critical health problems.
 Hospitals with suitable infrastructure can provide this service to remote places with limited resources by collecting the exams to be studied. AI-generated reports can be processed further with teleconsultations without the patient's need for travel. Meeting demand during a high surge in diagnosis as, in the current covid pandemic, and in countries where healthcare resources are in scarce. 
 
 **Implementation:** The application uses Python, MONAI, DenseNet121, Fastapi, Streamlit, fpdf libraries. The model is trained, optimized, and performs with an accuracy of 80% on the validation dataset. The backend inference engine performs batch inference at timed intervals and updates the database. The Streamlit User Interface connects to the backend engine using the REST APIs to configure, initiate batch inference, get summary data for visualizations and render the exam report.  
@@ -59,12 +62,12 @@ Hospitals with suitable infrastructure can provide this service to remote places
 
 **Extendibility:** One can use the application for other types of diagnostics such as  CT , MRI, Ultrasound, X-ray scans and can be integrated well with PACS and other applications in healthcare practice. To ensure privacy, we built an engine that can run on on-premises servers to ensure privacy. It can handle multiple data sources from within an organization and integrate well within a private cloud with hospitals under an Organization's umbrella.   
 
-**Innovation:** The application and inference pipeline are built with standard *REST APIs* and *opensource libraries* frameworks which can integrate well with the existing radiology systems like PACS and AI models currently in use. Thus significantly improving the integration of AI into healthcare systems and enhancing the benefits to a larger population. The possible identification of high-risk health problems with this application will allow doctors to prioritize patients and ultimately save more lives.
+
 
 <img src="figures/thankyou.png" width="500">
 
 
 
 ## What's next for Track 1 Challenge 5 Medical Imaging Communication Tool
-- Extending Notifications beyond simple fractures to critical Diagnostics using AI for the radiologist,  
+- Extending Notifications beyond simple fractures to critical Diagnostics using AI for the radiologist  
 - Expanding to other AI models in practice. 
