@@ -1,0 +1,7 @@
+fastapi
+pydantic
+typing
+pydicom
+jinja2
+
+

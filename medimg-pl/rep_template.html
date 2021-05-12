@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<style>
+            h1 {
+                text-align:center;
+                color:green;
+            }
+            body {
+                width:70%;
+            }
+            .container .box {
+                width:540
+                margin:50px;
+                display:table;
+                
+            }
+            .container .box .box-row {
+                display:table-row;
+            }
+            .container .box .box-cell {
+                display:table-cell;
+                padding:10px;
+            }
+            .container .box .box-cell.box1 {
+                text-align:justify;
+		display: table-cell;
+  		vertical-align: top;
+                width:70%;
+             }
+
+            .container .box .box-cell.box1  table, th, td {
+		  padding: 20;
+		  border-spacing: 0 15px;
+		}
+            .container .box .box-cell.box2 {
+                width:30%
+                text-align:justify
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" style="text-align:center">
+            <h2>AI For Medical Imaging Communication Tools</h2>
+            <h3> Hand X-ray Report </h3>
+            <div class="box">
+                <div class="box-row">
+                    <div class="box-cell box1">
+
+    			<table> 
+			    {% for name, value in rpdict.items(): %}
+       			 <tr> 
+			        <td > {{name}}  </td>  
+        			<td > {{ value}} </td>
+       			 </tr>
+    			     {% endfor %}
+    			</table>
+        
+                    </div>
+
+                    <div class="box-cell box2">
+    			<img src="https://drive.google.com/thumbnail?id=1J-ThKUPOnd_aJOLnT5wrQ5zXWLaKj5k1"  alt="Frontal X-ray image" height = "240" width = "240" />
+    			<!--img src={{rp_image}}  alt="Frontal X-ray image" height = "360" width = "360" /-->
+    			<!--img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/hand-xray-bone.jpg" alt="Frontal X-ray image" height = "360" width = "360" /-->
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>  
