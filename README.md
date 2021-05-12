@@ -60,3 +60,6 @@ Healthcare needs are domain-specific and so need expert input to build an effici
 ## What's next for Track 1 Challenge 5 Medical Imaging Communication Tools
 - Notifications of critical cases of AI diagnosis to the radiologist,  
 - Extending to other AI models in practice. 
+
+<img src="figures/thankyou.png" width="500">
+
