@@ -7,7 +7,7 @@ Find out more about this project at its [Devpost page](https://devpost.com/softw
 
 ## Meet the team
 
-This repository contais the work of the **AI Wonder Girls** team! 
+This repository contais the work of the **AI Wonder Girls** team for the [AI for Healthcare Hackathon](https://ai-for-healthcare-hackathon.com/#linkchallenges)! 
 
 <img src="figures/logo.png" width="200">
 
