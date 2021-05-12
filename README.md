@@ -1,4 +1,6 @@
-# AI-healthcare-hackathon
+# AI Healthcare Hackathon
+
+Find out more about this project at its [Devpost page](https://devpost.com/submit-to/12485-ai-for-healthcare-hackathon/manage/submissions/229798-track-1-challenge-5-medical-imaging-communication-tools/project_details/).
 
 ## Inspiration 
 The **AI wonder Girls** team members are experienced data scientists and take great pleasure in contributing to the Healthcare Domain.
