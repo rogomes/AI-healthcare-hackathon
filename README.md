@@ -1,6 +1,18 @@
 # AI Healthcare Hackathon
 
+<img src="figures/doc.jpg" width="600">
+
+
 Find out more about this project at its [Devpost page](https://devpost.com/submit-to/12485-ai-for-healthcare-hackathon/manage/submissions/229798-track-1-challenge-5-medical-imaging-communication-tools/project_details/).
+
+## Meet the team
+
+This repository contais the work of the **AI Wonder Girls** team! 
+
+<img src="figures/logo.png" width="200">
+
+<img src="figures/team.png" width="400">
+
 
 ## Inspiration 
 The **AI wonder Girls** team members are experienced data scientists and take great pleasure in contributing to the Healthcare Domain.
@@ -21,6 +33,15 @@ The **implementation** of our model was done with *DenseNet121* is pretrained us
 - Automatic report generation, 
 - Application User interface with Streamlit and Python
 - A clear strategy for further development of the tool 
+
+<img src="figures/dash.png" width="700">
+
+*Prototype Application: report generation application*
+
+<img src="figures/app6.jpg" width="700">
+
+*Potential Application: patient analytics*
+
 
 ## What we learned
 Healthcare needs are domain-specific and so need expert input to build an efficient AI product. Knowledge in both domains can help solve the bottlenecks in the workflows. 
