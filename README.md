@@ -12,27 +12,28 @@ This repository contais the work of the **AI Wonder Girls** team!
 <img src="figures/logo.png" width="200">
 
 <img src="figures/team.png" width="400">
-
-
 ## Inspiration 
-The **AI wonder Girls** team members are experienced data scientists and take great pleasure in contributing to the Healthcare Domain.
+The **AI wonder Girls** team members are experienced data scientists and are passionate about contributing their skills to Healthcare Domain.
 
 ## What our tool does
-The AI Medical Imaging application is developed with batch inference on the wrist fracture detection, automatic report generation, analytics dashboard, and configuration capabilities. 
+The AI Medical Imaging application detects wrist fractures, automatically generates reports and displays an analytics dashboard from adaptable configuration capabilities. 
 
-## How we built it
-The **implementation** of our model was done with *DenseNet121* is pretrained using the *MONAI library* on the given data set for hand images. The model is tuned optimized to an accuracy of 80% on the test dataset. The inference pipeline is developed with batch inference and updated in the database. The User interface based on *Streamlit*, is developed with the configuration of database and report features, which are used for analytics. The report is automatically generated for each imaging modality exam with *DICOM* features and AI model prediction data. 
+The **implementation** of our batch inference model uses *DenseNet121*. It is an *ImageNet-trained model* using the *MONAI library* on the given data set for wrist fracture images, stored in a database. The model is fine-tuned, then optimized to an accuracy of 80% on the test dataset. The inference pipeline is developed with batch inference and updated in the database. The User interface based on *Streamlit* is developed with the configuration of database and report features used for analytics. A report for each imaging modality is generated automatically using the extracted *DICOM* features and the AI model prediction.
 
-## Challenges we ran into
-- Understanding the radiology bottlenecks, use cases, constraints.  
-- Notifications to multiple devices like SMS, email, mobile, desktop as options do not come in a single framework that can be made use of.
+## Challenges we faced
+- Understanding the radiology bottlenecks, use cases, and constraints.  
+- Creating notifications to multiple devices like SMS, email, mobile, desktop as these communication options do not exist in a single framework that one can use.
+- Ensuring data privacy for patients.
 
 ## Accomplishments that we're proud of
-- Training a model with 80% accuracy, 
-- Inference engine pipeline in Python with batch inference, 
-- Automatic report generation, 
-- Application User interface with Streamlit and Python
-- A clear strategy for further development of the tool 
+- Training an AI model for fracture classification with 80% accuracy.
+- Developing a pipeline in Python with batch inference.
+- Generating Automated medical reports. 
+- Building an Application User interface with Streamlit and Python.
+- Envisioning a clear strategy for further development of the tool.
+
+And participating in the Hackathon!
+ 
 
 <img src="figures/dash.png" width="700">
 
@@ -44,23 +45,26 @@ The **implementation** of our model was done with *DenseNet121* is pretrained us
 
 
 ## What we learned
-Healthcare needs are domain-specific and so need expert input to build an efficient AI product. Knowledge in both domains can help solve the bottlenecks in the workflows. 
+Healthcare needs are domain-specific and can vary from organization to organization. Policy and Regulation can also play a role in the way AI is developed and used. 
+Domain knowledge input is an essential part of building an efficient AI product. Knowledge in both AI and Healthcare domains can help solve the bottlenecks in the workflows. 
 
 ## The pillars of our project
 
-**Impact:**  The AI report generation will ease out the bottlenecks in the workflows in the radiology and ensure faster diagnosis which is highly desirable in critical health problems. The hospitals with good infrastructure can provide this service to remote places with lesser resources by collecting the exams to be studied, AI generated reports can be processed further with the teleconsultations, without the patient need for travel. This can meet the need in high surge in diagnosis as in current covid pandemic and in countries where health care resources are in a crunch. 
+**Impact** The AI report generation will ease the bottlenecks in radiology workflowsand ensure faster diagnosis, which is highly desirable in critical health problems.
+Hospitals with suitable infrastructure can provide this service to remote places with limited resources by collecting the exams to be studied. AI-generated reports can be processed further with teleconsultations without the patient's need for travel. Meeting demand during a high surge in diagnosis as, in the current covid pandemic, and in countries where healthcare resources are in scarce. 
 
-**Implementation:** The application is built with python, MONAI, DenseNet121, Fastapi, streamlit, fpdf libraries . The model is trained, optimized and performs with an accuracy of 80% on the validation dataset. The backend inference engine performs batch inference at timed intervals and updates the database. The Streamlit User Interface connects to backend engine by REST APIs to configure, initiate batch inference, get summary data for visualisations and to render the exam report.  
+**Implementation:** The application uses Python, MONAI, DenseNet121, Fastapi, Streamlit, fpdf libraries. The model is trained, optimized, and performs with an accuracy of 80% on the validation dataset. The backend inference engine performs batch inference at timed intervals and updates the database. The Streamlit User Interface connects to the backend engine using the REST APIs to configure, initiate batch inference, get summary data for visualizations and render the exam report.  
 
 **Feasibility:** The UI application, inference pipeline, model are built with python, REST APIs and opensource libraries, frameworks. 
 
+**Extendibility:** One can use the application for other types of diagnostics such as  CT , MRI, Ultrasound, X-ray scans and can be integrated well with PACS and other applications in healthcare practice. To ensure privacy, we built an engine that can run on on-premises servers to ensure privacy. It can handle multiple data sources from within an organization and integrate well within a private cloud with hospitals under an Organization's umbrella.   
 
-**Extensibility:** The application can be scaled to AI models used for CT , MRI, Ultrasound, X-ray scans and can be integrated well with PACS and other applications in healthcare practice. The entire engine can be run on-premise servers to ensure privacy. It can integrate well with private clouds with cluster of hospitals under an umbrella, with multiple sources of data linked.  
-
-**Innovation:** The application and inference pipeline are built with standard *REST APIs* and *opensource libraries* frameworks which can integrate well with the existing radiology systems like PACS and AI models currently in use. This helps improving greatly the integration of AI into healthcare systems enhancing the extension of the benefits to a large population. The possible identification of  high risk health problems with this application will allow doctors to prioritize patients and ultimately save more lives.
-## What's next for Track 1 Challenge 5 Medical Imaging Communication Tools
-- Notifications of critical cases of AI diagnosis to the radiologist,  
-- Extending to other AI models in practice. 
+**Innovation:** The application and inference pipeline are built with standard *REST APIs* and *opensource libraries* frameworks which can integrate well with the existing radiology systems like PACS and AI models currently in use. Thus significantly improving the integration of AI into healthcare systems and enhancing the benefits to a larger population. The possible identification of high-risk health problems with this application will allow doctors to prioritize patients and ultimately save more lives.
 
 <img src="figures/thankyou.png" width="500">
 
+
+
+## What's next for Track 1 Challenge 5 Medical Imaging Communication Tool
+- Extending Notifications beyond simple fractures to critical Diagnostics using AI for the radiologist,  
+- Expanding to other AI models in practice. 
